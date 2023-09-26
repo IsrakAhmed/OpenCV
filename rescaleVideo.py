@@ -3,6 +3,9 @@ import cv2 as cv
 # Resizing Videos
 
 def rescaleFrame(frame, scale = 0.75):
+
+    # This function works for Live Videos, Videos, Images
+
     width = int(frame.shape[1] * scale)
     height = int(frame.shape[0] * scale)
 
