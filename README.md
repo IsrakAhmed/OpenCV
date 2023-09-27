@@ -7,3 +7,6 @@
 
 > Caer
 >> pip install caer
+
+> Mediapipe
+>> pip install mediapipe
