@@ -2,8 +2,8 @@
 
 ## Requirements
 
-### OpenCV
-> pip install opencv-contrib-python
+> OpenCV
+>> pip install opencv-contrib-python
 
-### Caer
-> pip install caer
+> Caer
+>> pip install caer
