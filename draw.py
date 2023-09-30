@@ -6,7 +6,7 @@ cv2.imshow('Blank',blank)
 
 # 1. Paint the image a certain colour
 
-blank[:] = 0,0,255
-cv2.imshow('Green',blank)
+blank[200:300, 300:400] = 0,0,255
+cv2.imshow('Red',blank)
 
 cv2.waitKey(0)
