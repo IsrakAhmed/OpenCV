@@ -1,11 +1,12 @@
 import cv2
 import numpy
 
-blank = numpy.zeros((500,500), dtype='uint8')
-cv2.imshow('Dummy',blank)
+blank = numpy.zeros((500,500,3), dtype='uint8')
+cv2.imshow('Blank',blank)
 
-img = cv2.imread('Resources/Photos/cat.jpg')
-cv2.imshow('Cat',img)
+# 1. Paint the image a certain colour
 
+blank[:] = 0,255,0
+cv2.imshow('Green',blank)
 
 cv2.waitKey(0)
