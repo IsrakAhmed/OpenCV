@@ -23,4 +23,10 @@ cv2.imshow('Rectangle', blank)
 cv2.circle(blank, (blank.shape[1]//2, blank.shape[0]//2), 40, (0,0,255), thickness=2)
 cv2.imshow('Circle', blank)
 
+
+# Draw a Line
+
+cv2.line(blank, (0,0), (blank.shape[1]//2, blank.shape[0]//2), (255,255,255), thickness=3)
+cv2.imshow("Line",blank)
+
 cv2.waitKey(0)
