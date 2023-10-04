@@ -13,7 +13,7 @@ cv2.imshow('Blank',blank)
 
 # 2. Draw a Rectangle
 
-cv2.rectangle(blank, (0,0), (250,250), (0,255,0), thickness=2)
+cv2.rectangle(blank, (0,0), (blank.shape[1]//2,blank.shape[0]//2), (0,255,0), thickness=cv2.FILLED)
 cv2.imshow('Rectangle', blank)
 
 
