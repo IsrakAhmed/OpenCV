@@ -18,4 +18,9 @@ cv2.imshow('Rectangle', blank)
 
 
 
+# 3. Draw a Circle
+
+cv2.circle(blank, (blank.shape[1]//2, blank.shape[0]//2), 40, (0,0,255), thickness=2)
+cv2.imshow('Circle', blank)
+
 cv2.waitKey(0)
